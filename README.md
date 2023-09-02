@@ -41,10 +41,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
     # Download
     $ Caso prefira você pode baixar a pasta diretamente 
 
-    # Entrar no primeiro diretório
-    $ cd fornecedoresapi
-
-    # Entrar no segundo diretório
+    # Entrar no diretório
     $ cd fornecedoresapi
 
     # Instalar as dependências
