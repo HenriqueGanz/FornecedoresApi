@@ -18,7 +18,7 @@ Este projeto  é um sistema que foi desenvolvido a fim de testar habilidades ASP
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [.NET ASPNet.core](https://https://learn.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0.org)
+- [.NET ASP.Net Core](https://learn.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-7.0)
 - [EntityFramework](https://learn.microsoft.com/pt-br/ef/)
 - [SQLServer](https://learn.microsoft.com/pt-br/sql/?view=sql-server-ver16)
 - [BeekeeperStudio](https://www.beekeeperstudio.io/)
@@ -45,7 +45,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
     $ cd fornecedoresapi
 
     # Instalar as dependências
-    # Execute os comandos para instalar os pacotes necessários:
+    $ dotnet restore
+
+    # Caso precise Executar os comandos para instalar os pacotes necessários:
 
     $ dotnet add package Microsoft.EntityFrameworkCore --version 6.0.10
 
