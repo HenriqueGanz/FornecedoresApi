@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FornecedoresApi</name>
+    </assembly>
+    <members>
+        <member name="M:FornecedoresApi.Controllers.FornecedoresController.CriarFornecedor(FornecedoresApi.Data.Dtos.CriarFornecedorDto)">
+            <summary>
+            Adiciona um Fornecedor ao banco de dados
+            </summary>
+            <param name="CriarFornecedorDto">Objeto com os campos necessários para criação de um Fornecedor</param>
+            <returns>Task de IActionResult</returns>
+            <response code="201">Caso a criação seja feita com sucesso</response>
+        </member>
+        <member name="M:FornecedoresApi.Controllers.FornecedoresController.ListarFornecedores">
+            <summary>
+            Lista todos os Fornecedores que existem no banco de dados
+            </summary>
+            <param name="ListarFornecedorDto">Objeto com os campos necessários para listagem de um fornecedor</param>
+            <returns>IActionResult de IEnumerable</returns>
+            <response code="200">Caso a listagem seja feita com sucesso</response>
+        </member>
+        <member name="M:FornecedoresApi.Controllers.FornecedoresController.ListarFornecedor(System.Int32)">
+            <summary>
+            Lista um Fornecedor através de um Id passado por parametro
+            </summary>
+            <param name="ListarFornecedorDto">Objeto com os campos necessários para listagem de um fornecedor</param>
+            <returns>ActionResult de ListarFornecedorDto</returns>
+            <response code="200">Caso a listagem seja feita com sucesso</response>
+        </member>
+        <member name="M:FornecedoresApi.Controllers.FornecedoresController.AlterarFornecedor(System.Int32,FornecedoresApi.Data.Dtos.AlterarFornecedorDto)">
+            <summary>
+            Atualiza um Fornecedor, através de um Id passado por parametro
+            </summary>
+            <param name="AlterarFornecedorDto">Objeto com os campos necessários para Alteração de um Fornecedor</param>
+            <returns>Task de IActionResult</returns>
+            <response code="200">Caso a Atualização seja feita com sucesso</response>
+        </member>
+        <member name="M:FornecedoresApi.Controllers.FornecedoresController.DeletarFornecedor(System.Int32)">
+            <summary>
+            Deleta um Fornecedor do banco de dados
+            </summary>
+            <param name="Fornecedor.Id.Id">Objeto com os campos necessários para deleção de um Fornecedor</param>
+            <returns>IActionResult</returns>
+            <response code="200">Caso a Deleção seja feita com sucesso</response>
+        </member>
+    </members>
+</doc>
